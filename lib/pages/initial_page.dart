@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors, avoid_print
 import 'package:flutter/material.dart';
-import 'package:ifeira_testes/pages/login_page.dart';
+import 'login_page.dart';
+
+import 'setUrl_page.dart';
 
 /// This is the stateful widget that the main application instantiates.
 class TelaInicial extends StatefulWidget {
@@ -76,6 +78,23 @@ class _MyStatefulWidgetState extends State<TelaInicial> {
                     context,
                     MaterialPageRoute(
                         builder: (BuildContext context) => TelaLogin()),
+                  );
+                },
+              ),
+            ),
+            Card(
+              child: ListTile(
+                title: const Text('URL config'),
+                trailing: Icon(
+                  Icons.open_in_browser,
+                  color: Colors.blue
+                ),
+                //trailing: Icon(Icons.exit_app),
+                onTap: () {
+                  Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (BuildContext context) => Urlconfig()),
                   );
                 },
               ),
