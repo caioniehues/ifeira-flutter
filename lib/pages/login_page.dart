@@ -1,8 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
 import 'package:flutter/material.dart';
-import 'package:ifeira_testes/pages/initial_page.dart';
-import 'package:ifeira_testes/pages/register_page.dart';
+import 'initial_page.dart';
+import 'register_page.dart';
 //import 'package:ifeira_app_1/modelos/register_page.dart';
 
 class TelaLogin extends StatelessWidget {

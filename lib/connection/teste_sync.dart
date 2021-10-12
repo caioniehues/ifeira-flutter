@@ -4,13 +4,14 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 import 'package:ifeira_testes/objetos/usuario.dart';
+import 'package:ifeira_testes/pages/setUrl_page.dart';
 
-void main() {
+/*void main() {
   fetch();
-}
+}*/
 
 Future fetch() async {
-  var url = Uri.parse('http://localhost:8080/registrar');
+  var url = Uri.parse('setUrl'); //puxar a 'setUrl' pra ca
   Map<String, String> teste = {
     "nome": "Caio Cesar",
     "email": "teste@teste",

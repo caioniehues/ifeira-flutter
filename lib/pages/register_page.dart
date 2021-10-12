@@ -2,8 +2,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
-import 'package:ifeira_testes/pages/initial_page.dart';
-import 'package:ifeira_testes/pages/login_page.dart';
+import 'initial_page.dart';
+import 'login_page.dart';
 
 class TelaCadastro extends StatelessWidget {
   final _formKey = GlobalKey<FormState>();
