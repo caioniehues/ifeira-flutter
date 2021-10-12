@@ -1,6 +1,6 @@
 // ignore_for_file: prefer_const_constructors, avoid_print, use_function_type_syntax_for_parameters, unused_field, must_be_immutable, use_key_in_widget_constructors
 
-import 'package:flutter/Material.dart';
+import 'package:flutter/material.dart';
 import 'package:ifeira_testes/pages/login_page.dart';
 
 class TelaInicial extends StatelessWidget {
